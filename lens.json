@@ -1,0 +1,25 @@
+{ "lens": [{
+    "brand": "Canon",
+    "type": "telephoto",
+    "description": "Something super random",
+    "condition": "Very used",
+    "pricing": "$10 a day",
+    "image": "https://www.jbhifi.com.au/FileLibrary/ProductResources/Images/169268-L-LO.jpg"
+  },
+  {
+    "brand": "Fuji",
+    "type": "fisheye",
+    "description": "Something else super random",
+    "condition": "Mildly used",
+    "pricing": "$15 a day",
+    "image": "http://www.mathersoflancashire.co.uk/images/Product/6457ea2f-0Fuji%20X70%20Digital%20Camera%20-%20Zilver.jpg"
+  },
+  {
+    "brand": "Nikon",
+    "type": "macro",
+    "description": "Something else super super random",
+    "condition": "Very new",
+    "pricing": "$30 a day",
+    "image": "https://ssli.ebayimg.com/images/g/lbgAAOxy3NBSij2n/s-b400x400/p-vc-hc-bgFFFFFF/r.jpg"
+  }]
+}
