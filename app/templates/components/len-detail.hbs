@@ -1,1 +1,22 @@
-{{yield}}
+<h1>Details about specific lens</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5">
+      <h2>
+        {{len.type}}
+      </h2>
+      <p>
+        {{len.description}}
+        {{len.pricing}}
+      </p>
+    </div>
+    <div class="col-sm-5">
+      <img src={{len.image}}>
+    </div>
+  </div>
+  <div class="row">
+    <button {{action 'destroyLen' len}}>Delete This Listing</button>
+    <button {{enter code here}}>Add to Cart</button>
+  </div>
+
+</div>

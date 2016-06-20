@@ -1,3 +1,4 @@
+{{#link-to "len" len.id}}
 <div class="row">
   <div class="col-sm-3">
     <div class="lenCategories">
@@ -21,8 +22,9 @@
         {{len.pricing}}
       </p>
     </div>
-    <button {{action 'destroyLen' len}}>Delete This Listing</button>
 
-    {{update-len len=len updateLen="updateLen"}}
+
+
   </div>
 </div>
+{{/link-to}}
